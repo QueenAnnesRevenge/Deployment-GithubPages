@@ -20,7 +20,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: cd Hello-World
       - name: Checkout
         uses: actions/checkout@v2
       - name: Set-up Node
